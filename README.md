@@ -102,7 +102,7 @@ Two options:
 
 ### Authors
 
-[Udit Arora](https://yzpang.me)
+[Udit Arora](https://uditarora.com)
 
 [William Huang](https://wh629.github.io/)
 
