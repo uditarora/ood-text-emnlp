@@ -84,3 +84,26 @@ Two options:
     score = compute_auroc(-id_msp, -ood_msp)
     print(score)
    ```
+
+## Citation and authors
+
+### Bibtex
+
+```
+@misc{arora2021types,
+      title={Types of Out-of-Distribution Texts and How to Detect Them}, 
+      author={Udit Arora and William Huang and He He},
+      year={2021},
+      eprint={2109.06827},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+```
+
+### Authors
+
+[Udit Arora](https://yzpang.me)
+
+[William Huang](https://wh629.github.io/)
+
+[He He](https://hhexiy.github.io)
