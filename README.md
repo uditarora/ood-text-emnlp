@@ -90,13 +90,11 @@ Two options:
 ### Bibtex
 
 ```
-@misc{arora2021types,
+@inproceedings{arora2021types,
       title={Types of Out-of-Distribution Texts and How to Detect Them}, 
       author={Udit Arora and William Huang and He He},
-      year={2021},
-      eprint={2109.06827},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL}
+      booktitle={Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing (EMNLP)},
+      year={2021}
 }
 ```
 
