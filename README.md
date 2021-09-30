@@ -5,7 +5,7 @@ Paper: https://arxiv.org/abs/2109.06827
 
 ## Files
 - `fine_tune.py` is used to finetune the GPT-2 models, and `roberta_fine_tune.py` is used to finetune the Roberta models.
-- `perplexity.py` and `msp_eval.py` is used to find the PPLs and MSPs of a dataset pair's exxamples using the finetuned model.
+- `perplexity.py` and `msp_eval.py` are used to find the PPLs and MSPs of a dataset pair's examples using the finetuned model.
 
 ## How to run
 These steps show how to train both density estimation and calibration models on the MNLI dataset, and evaluated against SNLI.
