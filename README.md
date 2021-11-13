@@ -1,7 +1,10 @@
 # ood-text-emnlp
 Code for EMNLP'21 paper "Types of Out-of-Distribution Texts and How to Detect Them".
 
-Paper: https://arxiv.org/abs/2109.06827, https://aclanthology.org/2021.emnlp-main.835/
+Paper: 
+
+- Arxiv: https://arxiv.org/abs/2109.06827
+- Official: https://aclanthology.org/2021.emnlp-main.835/
 
 ## Files
 - `fine_tune.py` is used to finetune the GPT-2 models, and `roberta_fine_tune.py` is used to finetune the Roberta models.
