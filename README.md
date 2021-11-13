@@ -1,7 +1,7 @@
 # ood-text-emnlp
 Code for EMNLP'21 paper "Types of Out-of-Distribution Texts and How to Detect Them".
 
-Paper: https://arxiv.org/abs/2109.06827
+Paper: https://arxiv.org/abs/2109.06827, https://aclanthology.org/2021.emnlp-main.835/
 
 ## Files
 - `fine_tune.py` is used to finetune the GPT-2 models, and `roberta_fine_tune.py` is used to finetune the Roberta models.
@@ -90,11 +90,19 @@ Two options:
 ### Bibtex
 
 ```
-@inproceedings{arora2021types,
-      title={Types of Out-of-Distribution Texts and How to Detect Them}, 
-      author={Udit Arora and William Huang and He He},
-      booktitle={Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing (EMNLP)},
-      year={2021}
+@inproceedings{arora-etal-2021-types,
+    title = "Types of Out-of-Distribution Texts and How to Detect Them",
+    author = "Arora, Udit  and
+      Huang, William  and
+      He, He",
+    booktitle = "Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing",
+    month = nov,
+    year = "2021",
+    address = "Online and Punta Cana, Dominican Republic",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2021.emnlp-main.835",
+    pages = "10687--10701",
+    abstract = "Despite agreement on the importance of detecting out-of-distribution (OOD) examples, there is little consensus on the formal definition of the distribution shifts of OOD examples and how to best detect them. We categorize these examples as exhibiting a background shift or semantic shift, and find that the two major approaches to OOD detection, calibration and density estimation (language modeling for text), have distinct behavior on these types of OOD data. Across 14 pairs of in-distribution and OOD English natural language understanding datasets, we find that density estimation methods consistently beat calibration methods in background shift settings and perform worse in semantic shift settings. In addition, we find that both methods generally fail to detect examples from challenge data, indicating that these examples constitute a different type of OOD data. Overall, while the categorization we apply explains many of the differences between the two methods, our results call for a more explicit definition of OOD to create better benchmarks and build detectors that can target the type of OOD data expected at test time.",
 }
 ```
 
